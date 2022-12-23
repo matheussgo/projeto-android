@@ -169,6 +169,11 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
 }
 
+aside.pc {
+    border-radius: none;
+    box-shadow: none;
+}
+
 aside > ul {
     margin-top: 30px;
     list-style-position: inside;
@@ -194,6 +199,32 @@ aside > h3 {
 
 aside a:hover {
     color: white;
+}
+
+div#frame {
+    width: 790px; 
+    height: 350px;
+}
+
+.btn-pc {
+    width: 50%;
+    border: 1px solid rgba(31, 109, 66, 0.5);
+    border-radius: 5px;
+}
+
+.btn-pc:hover {
+    background-color: #3cd781;
+
+}
+
+.btn-cel {
+    width: 50%;
+    border: 1px solid rgba(31, 109, 66, 0.5);
+    border-radius: 5px;
+}
+
+.btn-cel:hover {
+    background-color: #3cd781;
 }
 
 /* botão voltar ao topo */
